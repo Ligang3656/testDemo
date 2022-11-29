@@ -1,0 +1,12 @@
+server:
+  servlet:
+    #定义上下文路径
+    context-path: /demo
+    #定义端口号
+  port: 8081
+spring:
+  profiles:
+    active: dev
+self:
+  message:
+    data: 这是我自定义的属性
